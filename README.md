@@ -2,8 +2,9 @@
 Testing Travis CI
 
 This repository is setup for students to do a first ditch effort at using github
-AND using travis-ci to test code.  FYI the CI stands for "continuous integration" and it provides a way to constantly
-test your code as your writing to make sure it is meeting your needs.
+and potentially using travis-ci to test code if desired.  
+FYI the CI stands for "continuous integration" and it provides a way to constantly
+test your code as your writing to make sure it is meeting your needs.  
 
 Read about the meaning of the various general files below and then read the assignment that follows:
 
@@ -26,15 +27,17 @@ There may be other files included that you, likewise, do not need to be concerne
 GITHUB repositories will be some python file with helper code that you'll be editing and, possibly, some data file(s) 
 that you may need to access to run the code.  
 
-testadd.py -> this is the ACTUAL python code that you should edit in order to then test your code.
+testadd.py -> this is the ACTUAL python code that one should edit in order to then test your code.
                   Edit the code so that it does what the docstring says.  The filename will vary in a given repository.  
                   For example, a problem set may have a title PS4.py (because XBOX sucks - videogame reference for those
                   who didn't catch it)
 
-ASSIGNMENT
-1)  You should have setup a github account and already have a travis-ci.com account.
-2)  Within this repository, you should edit the code testadd.py so that it does what the docstring says.  
-3)  Once you're confident in your code, login to: travis-ci.com
+ASSIGNMENT - THIS IS COMPLETELY OPTIONAL.  I WILL NOT BE DOING ADDITIONAL TRAVIS-CI ASSIGNMENTS IN THE ONLINE COURSE SO
+COMPLETING THE FOLLOWING IS ENTIRELY FOR YOUR OWN CURIOUSITY.
+
+1)  You should have setup a github account.  If desired you can attempt to setup a travis-ci.com account.
+2)  To test travis-ci within this repository, you would edit the code testadd.py so that it does what the docstring says.  
+3)  Once you're confident in your code, you would login to: travis-ci.com
 4)  In the upper left of the screen you should see a list of:
     MyRepositories     Running     +
 5)  Hit the + button to add a repository (if your travistest repo didn't automatically select itself)
@@ -53,4 +56,4 @@ ASSIGNMENT
     If it fails, you can see error messages, use those to figure out your problem and go back to your github repository and make    
     changes, push those changes through to your travistest repository and restart your build once you think you've fixed your 
     problem(s).  
-11) Good luck!  I'd value your opinion of if you prefer this method of turnin over canvas.
+
